@@ -8,7 +8,7 @@
 
     static void MyThreadAnswer(Thread chicken)
     {
-        Thread.Sleep(1);
+        Thread.Sleep(10);
         bool ans = chicken.IsAlive;
         Console.WriteLine(ans ? "Спор Окончен. Победила Курица." : "Спор окончен. Победило Яйцо.");
     }
